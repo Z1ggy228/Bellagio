@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bellagio</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo logo" href="#!">
+            <img class="header__logo-image" src="./icons/logo.svg" alt="logo" width="168" height="84" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="title-wrapper">
+        <div class="container">
+          <h1 class="main__title">Онлайн касса</h1>
+        </div>
+      </div>
+      <section class="payment">
+        <div class="container">
+          <div class="payment__inner">
+            <div class="payment__body">
+              <h2 class="payment__title">Оплата заказа № 4627 (магазин Bellagio)</h2>
+              <time datetime="19:59" class="payment__time">19:59</time>
+              <div class="payment__description">
+                <p>Срок действия QR кода на кассе (динамического QR-кода) составляет 20 минут</p>
+              </div>
+            </div>
+            <img
+              class="payment__image"
+              src="./images/payment.png"
+              alt="payment"
+              width="162"
+              height="224"
+              loading="lazy" />
+          </div>
+        </div>
+      </section>
+      <section class="receipts">
+        <div class="container">
+          <ul class="receipts__list">
+            <li class="receipts__item">
+              <article class="receipts__card">
+                <h3 class="receipts__card-title">Счет на оплату №1 от ___/___</h3>
+                <div class="receipts__card-info">
+                  <div class="receipts__card-provider">
+                    <span>Поставщик:</span>
+                    <p>
+                      Иванов Вадим Ивановис, ИНН 3435533535, ОГРНИП 435554335553, г. Москва, ул. Уральская 44, стр.2
+                      оф.561, т. 79692343434
+                    </p>
+                  </div>
+                  <div class="receipts__card-buyer">
+                    <span>Покупатель:</span>
+                    <p>Семенов Семен Семеныч, т. 798644563434</p>
+                  </div>
+                </div>
+                <div class="receipts__table-wrapper">
+                  <div class="table-wrapper">
+                    <table class="receipts__table">
+                      <thead class="receipts__table-header">
+                        <tr>
+                          <td>№</td>
+                          <td>Товары</td>
+                          <td>Кол-во</td>
+                          <td>Ед.</td>
+                          <td>Цена</td>
+                          <td>Сумма.</td>
+                        </tr>
+                      </thead>
+                      <tbody class="receipts__table-body">
+                        <tr>
+                          <td>1</td>
+                          <td>Столешница</td>
+                          <td>1213</td>
+                          <td>шт</td>
+                          <td>23 000 ₽</td>
+                          <td>34 000 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Фурнитура</td>
+                          <td>121</td>
+                          <td>шт</td>
+                          <td>213 000 ₽</td>
+                          <td>34 000 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>ДСП</td>
+                          <td>113</td>
+                          <td>шт</td>
+                          <td>23 000 ₽</td>
+                          <td>330 400 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Фасады</td>
+                          <td>13</td>
+                          <td>шт</td>
+                          <td>23 000 ₽</td>
+                          <td>34 000 ₽</td>
+                        </tr>
+                      </tbody>
+                      <tfoot class="receipts__table-footer">
+                        <tr>
+                          <td>Итого:</td>
+                          <td>33 000 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>Предоплата:</td>
+                          <td>13 000 ₽</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                  <div class="qr">
+                    <p class="qr__text">Отсканируйте QR–код камерой или в приложении банка</p>
+                    <div class="qr-code"><p>Добавить QR–код</p></div>
+                    <div class="qr-amount-wrapper">
+                      <p class="qr__amount"><span>Сумма к оплате:</span>23 000 ₽</p>
+                      <button class="button" type="button">Оплатить по ссылке</button>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="receipts__item">
+              <article class="receipts__card">
+                <h3 class="receipts__card-title">Счет на оплату №1 от ___/___</h3>
+                <div class="receipts__card-info">
+                  <div class="receipts__card-provider">
+                    <span>Поставщик:</span>
+                    <p>
+                      Иванов Вадим Ивановис, ИНН 3435533535, ОГРНИП 435554335553, г. Москва, ул. Уральская 44, стр.2
+                      оф.561, т. 79692343434
+                    </p>
+                  </div>
+                  <div class="receipts__card-buyer">
+                    <span>Покупатель:</span>
+                    <p>Семенов Семен Семеныч, т. 798644563434</p>
+                  </div>
+                </div>
+                <div class="receipts__table-wrapper">
+                  <div class="table-wrapper">
+                    <table class="receipts__table">
+                      <thead class="receipts__table-header">
+                        <tr>
+                          <td>№</td>
+                          <td>Товары</td>
+                          <td>Кол-во</td>
+                          <td>Ед.</td>
+                          <td>Цена</td>
+                          <td>Сумма.</td>
+                        </tr>
+                      </thead>
+                      <tbody class="receipts__table-body">
+                        <tr>
+                          <td>1</td>
+                          <td>Столешница</td>
+                          <td>1213</td>
+                          <td>шт</td>
+                          <td>23 000 ₽</td>
+                          <td>34 000 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Фурнитура</td>
+                          <td>121</td>
+                          <td>шт</td>
+                          <td>213 000 ₽</td>
+                          <td>34 000 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>ДСП</td>
+                          <td>113</td>
+                          <td>шт</td>
+                          <td>23 000 ₽</td>
+                          <td>330 400 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Фасады</td>
+                          <td>13</td>
+                          <td>шт</td>
+                          <td>23 000 ₽</td>
+                          <td>34 000 ₽</td>
+                        </tr>
+                      </tbody>
+                      <tfoot class="receipts__table-footer">
+                        <tr>
+                          <td>Итого:</td>
+                          <td>33 000 ₽</td>
+                        </tr>
+                        <tr>
+                          <td>Предоплата:</td>
+                          <td>13 000 ₽</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                  <div class="qr">
+                    <p class="qr__text">Отсканируйте QR–код камерой или в приложении банка</p>
+                    <div class="edit-qr">
+                      <img
+                        class="qr__image"
+                        src="./images/qr-code.jpg"
+                        alt="qr-code"
+                        width="222"
+                        height="222"
+                        loading="lazy" />
+                      <button class="edit-button" type="button">Изменить QR-код</button>
+                    </div>
+                    <div class="qr-amount-wrapper">
+                      <p class="qr__amount"><span>Сумма к оплате:</span>23 000 ₽</p>
+                      <button class="button" type="button">Оплатить по ссылке</button>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
